@@ -1,0 +1,496 @@
+Subject,Count,Category
+Economics,1815,Social Science and Liberal Arts
+Law,956,"Governance, Law and Management"
+History,930,Social Science and Liberal Arts
+Political Sc.,903,Social Science and Liberal Arts
+English,884,Languages and Fine Arts
+Physics,867,Natural Sciences
+English Lit,425,Languages and Fine Arts
+Commerce,390,Finance
+Mathematics,379,"Engineering, Technology and Mathematics"
+Chemistry,354,Natural Sciences
+Public Admn,303,"Governance, Law and Management"
+Electrical Engg.,285,"Engineering, Technology and Mathematics"
+Business Admn.,282,"Governance, Law and Management"
+Mech.engg.,264,"Engineering, Technology and Mathematics"
+Civil Engg,220,"Engineering, Technology and Mathematics"
+Medicine,213,Medical
+Geography,190,Social Science and Liberal Arts
+Botany,186,Natural Sciences
+Electronics,178,"Engineering, Technology and Mathematics"
+Zoology,174,Natural Sciences
+Management,169,"Engineering, Technology and Mathematics"
+Sociology,146,Social Science and Liberal Arts
+Agriculture,145,Others
+Philosophy,143,Social Science and Liberal Arts
+Computer Sc,127,"Engineering, Technology and Mathematics"
+Hindi,120,Languages and Fine Arts
+Geology,118,Natural Sciences
+Public Policy,100,"Governance, Law and Management"
+Finance,88,Finance
+French,87,Languages and Fine Arts
+Psychology,82,Social Science and Liberal Arts
+Science,68,Natural Sciences
+Statistics,68,"Engineering, Technology and Mathematics"
+Accountancy,68,Finance
+Chemical Engg,66,"Engineering, Technology and Mathematics"
+Education,64,Others
+Social Sciences,60,Social Science and Liberal Arts
+German,55,Languages and Fine Arts
+Agri.,52,Others
+Hons,52,Others
+Sanskrit,51,Languages and Fine Arts
+Art,50,Languages and Fine Arts
+Electronics and Communication,47,"Engineering, Technology and Mathematics"
+Development Economics,45,Social Science and Liberal Arts
+Veterinary Sc.,40,Medical
+Marketing,35,"Governance, Law and Management"
+Dev Adm,35,"Governance, Law and Management"
+Rural Dev,32,"Governance, Law and Management"
+Public Management,30,"Governance, Law and Management"
+Journalism,30,Social Science and Liberal Arts
+Bio-Technology,29,"Engineering, Technology and Mathematics"
+Pers.Mgt.,29,"Governance, Law and Management"
+Anthropology,28,Social Science and Liberal Arts
+Russian,27,Languages and Fine Arts
+Indl Engg.,24,"Engineering, Technology and Mathematics"
+Intnl Trade.,24,"Governance, Law and Management"
+Intnl Relations,24,"Governance, Law and Management"
+Fincl Mgt,23,"Governance, Law and Management"
+Business Mgt,23,"Governance, Law and Management"
+Mechanical,23,"Engineering, Technology and Mathematics"
+Engineeriing,23,"Engineering, Technology and Mathematics"
+Cost Acct,22,Finance
+Social Work,22,Social Science and Liberal Arts
+Animal Husby,22,Others
+Modern Ind.Hist,22,Social Science and Liberal Arts
+Dev Studies,22,Social Science and Liberal Arts
+History (hons),20,Social Science and Liberal Arts
+Electronics Engg,19,"Engineering, Technology and Mathematics"
+Bio Chemistry,19,Natural Sciences
+Human Res Mngmt,18,"Governance, Law and Management"
+Environmental Science,18,Natural Sciences
+Economic Dev.,18,Social Science and Liberal Arts
+Surgery,17,Medical
+Poltics,17,Social Science and Liberal Arts
+Prodn.Engg.,17,"Engineering, Technology and Mathematics"
+Medicine Surgery,16,Medical
+Urban Planning,16,"Governance, Law and Management"
+Forestry,16,Others
+Intnl.law,16,"Governance, Law and Management"
+Intrnl Business,15,"Governance, Law and Management"
+Agronomy,15,Natural Sciences
+Biology,15,Natural Sciences
+Public Policy & Mgmt,15,"Governance, Law and Management"
+Genetics,15,Natural Sciences
+Cooperation,15,"Governance, Law and Management"
+Banking,14,Finance
+Intnl Studies,14,Social Science and Liberal Arts
+Mech. Engg.,14,"Engineering, Technology and Mathematics"
+Public Mgmt & Policy,14,"Governance, Law and Management"
+Physics (hons),14,Natural Sciences
+Ancient History,14,Social Science and Liberal Arts
+Mining.Engg.,14,"Engineering, Technology and Mathematics"
+Intnl Politics,13,Social Science and Liberal Arts
+Instrumentation,13,"Engineering, Technology and Mathematics"
+Iformation&tech,13,"Engineering, Technology and Mathematics"
+Indl.mgt,13,"Governance, Law and Management"
+Computers,13,"Engineering, Technology and Mathematics"
+Microbiology,12,Natural Sciences
+Electronics & Telecom Engg,12,"Engineering, Technology and Mathematics"
+Financial Management,12,"Governance, Law and Management"
+Marketing Mgt,12,"Governance, Law and Management"
+Horticulture,12,Others
+Agrl.Economics,12,Social Science and Liberal Arts
+Computer Tech,12,"Engineering, Technology and Mathematics"
+Social Pol&planning -uk,12,"Governance, Law and Management"
+Labour Laws,11,"Governance, Law and Management"
+Applied Eco.,11,Social Science and Liberal Arts
+Medical Sciences,11,Medical
+Dentistry,11,Medical
+Defence Studies,11,"Governance, Law and Management"
+International Dev,11,"Governance, Law and Management"
+Planning.,11,"Governance, Law and Management"
+Social Planning,11,"Governance, Law and Management"
+Plant Pathology,10,Natural Sciences
+Comp. Sci.,10,"Engineering, Technology and Mathematics"
+Health Management,10,"Governance, Law and Management"
+Commn.Engg,10,"Engineering, Technology and Mathematics"
+All Medical Subjects,10,Medical
+Technology,10,"Engineering, Technology and Mathematics"
+Development,10,"Governance, Law and Management"
+Metallurgy Engg,10,"Engineering, Technology and Mathematics"
+Nuclear Physics,9,Natural Sciences
+Structural Engg,9,"Engineering, Technology and Mathematics"
+Taxation,9,"Governance, Law and Management"
+Aerospace Enginneering,9,"Engineering, Technology and Mathematics"
+Indus Relations,9,"Governance, Law and Management"
+Humanities,9,Social Science and Liberal Arts
+Dev Mgt,9,"Governance, Law and Management"
+Organic Chemistry,9,Natural Sciences
+Computer Application,9,"Engineering, Technology and Mathematics"
+Governance & Dev.,9,"Governance, Law and Management"
+Public Management & Governance,8,"Governance, Law and Management"
+Metallurgy,8,"Engineering, Technology and Mathematics"
+Hons Physics,8,Natural Sciences
+Human Res.mgt,8,"Governance, Law and Management"
+Human Resource,8,"Governance, Law and Management"
+Intrnl Deve Policy,8,"Governance, Law and Management"
+Information Technology,8,"Engineering, Technology and Mathematics"
+Energy Studies,8,"Engineering, Technology and Mathematics"
+Physical Chem,8,Natural Sciences
+Public Service,8,"Governance, Law and Management"
+Intnl.affairs,8,"Governance, Law and Management"
+Pure Math.,8,"Engineering, Technology and Mathematics"
+Company Law,8,"Governance, Law and Management"
+Architecture,8,"Engineering, Technology and Mathematics"
+Physiology,8,Natural Sciences
+Public Health,7,Medical
+Computer System,7,"Engineering, Technology and Mathematics"
+Medieval Indian History,7,Social Science and Liberal Arts
+Applied Geology,7,"Engineering, Technology and Mathematics"
+Public Mgmt,7,"Governance, Law and Management"
+Communication,7,"Governance, Law and Management"
+Operation Research,7,"Engineering, Technology and Mathematics"
+Food Technology,7,"Engineering, Technology and Mathematics"
+Petroleum Engg,7,"Engineering, Technology and Mathematics"
+Hons Economics,7,Social Science and Liberal Arts
+Econometrics,7,Social Science and Liberal Arts
+Company Mgt.,7,"Governance, Law and Management"
+Labour Welfare,7,"Governance, Law and Management"
+Accounting and Auditing,7,Finance
+Textile Engg.,7,"Engineering, Technology and Mathematics"
+Civil & Criminal Law,7,"Governance, Law and Management"
+Ecology,7,Others
+System Analysis,7,"Governance, Law and Management"
+Constl.law,6,"Governance, Law and Management"
+Agri.Engg.,6,"Engineering, Technology and Mathematics"
+Chinese,6,Languages and Fine Arts
+Mass Commn,6,"Governance, Law and Management"
+Indl.economics,6,Social Science and Liberal Arts
+Political Eco,6,Social Science and Liberal Arts
+Ayurvedic,6,Others
+Medical&dental,6,Medical
+Business Admn,6,"Governance, Law and Management"
+Pharmacy,6,Others
+Tourism,6,Others
+Rur Social Dev,6,"Governance, Law and Management"
+Energy Planning,5,"Governance, Law and Management"
+Diplomacy,5,"Governance, Law and Management"
+System Mgt,5,"Governance, Law and Management"
+"Demography,",5,"Governance, Law and Management"
+Business Law,5,"Governance, Law and Management"
+Marathi,5,Languages and Fine Arts
+Power Sys Engg,5,"Engineering, Technology and Mathematics"
+Behav Science,5,Social Science and Liberal Arts
+Telugu,5,Languages and Fine Arts
+Mechanical engineering,5,"Engineering, Technology and Mathematics"
+Persian,5,Languages and Fine Arts
+Marketing Management,5,"Governance, Law and Management"
+Economic Hons.,5,Social Science and Liberal Arts
+Crimnology,5,Social Science and Liberal Arts
+Building Sc,5,"Engineering, Technology and Mathematics"
+Punjabi,5,Languages and Fine Arts
+Business Finance,5,Finance
+Local Self Govt,4,"Governance, Law and Management"
+Indian History,4,Social Science and Liberal Arts
+Management&system,4,"Governance, Law and Management"
+Hons English,4,Languages and Fine Arts
+Macro Eco Policy & Plg,4,Social Science and Liberal Arts
+Urban Dev,4,"Governance, Law and Management"
+Hons History,4,Social Science and Liberal Arts
+App.Mathematics,4,"Engineering, Technology and Mathematics"
+Defence & Strategic Studies,4,"Governance, Law and Management"
+Intnl Economics,4,Social Science and Liberal Arts
+Chem. Engg,4,"Engineering, Technology and Mathematics"
+Entomology,4,Natural Sciences
+Soil Science,4,Natural Sciences
+Water R Dev,4,"Governance, Law and Management"
+Administrative Laws and Other Laws,4,"Governance, Law and Management"
+Nursing,4,Medical
+Urdu,4,Languages and Fine Arts
+Library Science,4,Social Science and Liberal Arts
+Public Finance,4,Finance
+Intel.property Law,4,"Governance, Law and Management"
+Intellectual Property Rights,4,"Governance, Law and Management"
+Dairy Production,4,Others
+Marine Biology,4,Natural Sciences
+Administrative Law,4,"Governance, Law and Management"
+Electronics Engineering,3,"Engineering, Technology and Mathematics"
+Optoelectronics,3,"Engineering, Technology and Mathematics"
+Human Rights,3,"Governance, Law and Management"
+USA,3,Others
+Political Studies,3,Social Science and Liberal Arts
+Dairy Science,3,Others
+Tamil,3,Languages and Fine Arts
+Homeopathy,3,Others
+Orthopaedics,3,Medical
+Env. Sci.,3,Natural Sciences
+Civil Laws,3,"Governance, Law and Management"
+Environmental Laws,3,"Governance, Law and Management"
+Population&devlp,3,"Governance, Law and Management"
+Foundation Engg,3,"Engineering, Technology and Mathematics"
+Textile Technology,3,"Engineering, Technology and Mathematics"
+Intnl Policy&studies,3,"Governance, Law and Management"
+Paper Technolog,3,"Engineering, Technology and Mathematics"
+Navigation,3,Others
+Micro ¯o Eco,3,Social Science and Liberal Arts
+Microelectronics and VLSI,3,"Engineering, Technology and Mathematics"
+Criminal Laws,3,"Governance, Law and Management"
+International Political Economy,3,Social Science and Liberal Arts
+Constitl. Law,3,"Governance, Law and Management"
+Anatomy,3,Natural Sciences
+Advance Accountancy,3,Finance
+Rural Mgt,3,"Governance, Law and Management"
+Obstetrics and Gynaecology,3,Medical
+Energy & Environmental Policy,3,"Governance, Law and Management"
+Law & Governance,3,"Governance, Law and Management"
+Plant Botany,3,Natural Sciences
+Business Econ,3,Social Science and Liberal Arts
+Agri. Entomology,3,Natural Sciences
+Transportation,3,Others
+Gandhian Studies,3,Social Science and Liberal Arts
+Admn.Sc.&Dev Problem,3,"Governance, Law and Management"
+Administrative Science,3,"Governance, Law and Management"
+Italian,3,Languages and Fine Arts
+Nautical Science,3,Others
+Linguistics,3,Languages and Fine Arts
+Export,3,"Governance, Law and Management"
+National Dev,3,"Governance, Law and Management"
+Gujarati,3,Languages and Fine Arts
+Globalization and Urban Dev,3,"Governance, Law and Management"
+Project Mgt,3,"Governance, Law and Management"
+Fishery Science,3,Others
+Urban Studies,3,"Governance, Law and Management"
+Social Policy,3,"Governance, Law and Management"
+Labour,3,"Governance, Law and Management"
+Plant Breeding,3,Others
+Spanish,3,Languages and Fine Arts
+Yoga,3,Others
+Auditing,3,Finance
+Procurement,2,Finance
+Thermal Sc.,2,Natural Sciences
+Indl.dev.,2,"Governance, Law and Management"
+Anatomy Physiology Biochemistry,2,Natural Sciences
+Radar Engg,2,"Engineering, Technology and Mathematics"
+Health Policy,2,"Governance, Law and Management"
+Quality Management,2,"Governance, Law and Management"
+Hydrology,2,Others
+Divinity,2,Others
+Managerial Eco,2,Social Science and Liberal Arts
+Mineral Exploration,2,Others
+Policy Analysis,2,"Governance, Law and Management"
+Rural Social Dev,2,"Governance, Law and Management"
+Digital Commn Engg,2,"Engineering, Technology and Mathematics"
+Equity Capital Mkts,2,Finance
+West Asian Studies,2,Social Science and Liberal Arts
+Pure Maths,2,"Engineering, Technology and Mathematics"
+public affairs,2,"Governance, Law and Management"
+Euro.history,2,Social Science and Liberal Arts
+Geophysics,2,Natural Sciences
+Arabic,2,Languages and Fine Arts
+Nutrition,2,Others
+Paediatrics,2,Medical
+Cyber Law,2,"Governance, Law and Management"
+Cytogenetics,2,Natural Sciences
+Livestock Production,2,Others
+Material Sc,2,"Engineering, Technology and Mathematics"
+Administrative Mgmt,2,"Governance, Law and Management"
+Accountancy.Chd,2,Finance
+Opthalmology,2,Medical
+Ancient Ind.history,2,Social Science and Liberal Arts
+Income Tax,2,"Governance, Law and Management"
+Napalese,2,Languages and Fine Arts
+Wildlife Mgt,2,Others
+Physical Engg,2,"Engineering, Technology and Mathematics"
+Corporate Laws,2,"Governance, Law and Management"
+Hotal Management,2,"Governance, Law and Management"
+Applied Physics,2,Natural Sciences
+Internal Medicine,2,Medical
+Plant Physioloy,2,Natural Sciences
+Advertising,2,Others
+Parasitology,2,Others
+Information Sc,2,"Engineering, Technology and Mathematics"
+Trade,2,"Governance, Law and Management"
+Rural Economics,2,Social Science and Liberal Arts
+Accoustics,2,Others
+C.A.,2,Finance
+Commercial Law,2,"Governance, Law and Management"
+Fin. Mgmt,2,"Governance, Law and Management"
+Archaeology,2,Social Science and Liberal Arts
+Bacteriology,2,Natural Sciences
+Fluid Mechanics,2,Natural Sciences
+Petrology,2,Natural Sciences
+Assamese,2,Languages and Fine Arts
+Marine.engg.,2,"Engineering, Technology and Mathematics"
+Executive Devlopment,2,"Governance, Law and Management"
+Social Studies,2,Social Science and Liberal Arts
+Naval Architre,2,"Engineering, Technology and Mathematics"
+Costing,2,Finance
+Public Sc.& Managt,2,"Governance, Law and Management"
+Hons Zoology,2,Natural Sciences
+Security Relatn,2,"Governance, Law and Management"
+Development Mgmt,2,"Governance, Law and Management"
+Public Eco.,2,Social Science and Liberal Arts
+Forensic Sc.,2,Others
+Hydraulics,2,Natural Sciences
+Pharmacology,2,Others
+Principle of Laws,2,"Governance, Law and Management"
+Project Planning,2,"Governance, Law and Management"
+Construction Mgt,2,"Governance, Law and Management"
+Fine Arts,2,Languages and Fine Arts
+Poverty Alleviation,2,"Governance, Law and Management"
+Housing and Environment,2,Others
+Intrntl Finance,2,Finance
+Power Electronics,2,"Engineering, Technology and Mathematics"
+Indl.psychology,1,Social Science and Liberal Arts
+Intnl Marketing,1,"Governance, Law and Management"
+Radiology,1,Medical
+Cost and Work Mgmt.,1,"Governance, Law and Management"
+Histology,1,Social Science and Liberal Arts
+Ceramic Tech,1,"Engineering, Technology and Mathematics"
+Programing,1,"Engineering, Technology and Mathematics"
+Legal History,1,Social Science and Liberal Arts
+Bio-Physics,1,Natural Sciences
+Design Engineering,1,"Engineering, Technology and Mathematics"
+Engg Mining.Engg.,1,"Engineering, Technology and Mathematics"
+Manpower Plg,1,Others
+Hons Psychology,1,Social Science and Liberal Arts
+Fiscal Studies,1,Others
+Hons Computers,1,"Engineering, Technology and Mathematics"
+Applied Mech,1,"Engineering, Technology and Mathematics"
+Design of Mech Equipments,1,"Engineering, Technology and Mathematics"
+Women Studies,1,Social Science and Liberal Arts
+Education Plg.,1,Others
+Hindi English Math Physics Chemistry,1,Others
+Hons Statistics,1,"Engineering, Technology and Mathematics"
+Hindi English Math NaturalScience SSc Sanskrit Eco,1,Others
+Electronic.dp,1,"Engineering, Technology and Mathematics"
+Banking Law,1,"Governance, Law and Management"
+INTNL RELATIONS,1,Social Science and Liberal Arts
+Mathematical Sciences,1,"Engineering, Technology and Mathematics"
+Taxation Laws,1,"Governance, Law and Management"
+Auto.Engg.,1,"Engineering, Technology and Mathematics"
+Christian Ministry,1,Others
+Hons Civil Engg,1,"Engineering, Technology and Mathematics"
+Direct Tax Laws,1,"Governance, Law and Management"
+Hons Electrical Engg.,1,"Engineering, Technology and Mathematics"
+Management Accounting,1,"Governance, Law and Management"
+Environmental Engineering,1,"Engineering, Technology and Mathematics"
+Office Mgt.,1,"Governance, Law and Management"
+Physiotherapy,1,Others
+Economic Hons. with Psychology,1,Social Science and Liberal Arts
+Indian Industry,1,Others
+Legislative Drafting,1,"Governance, Law and Management"
+Corporate Mgmt,1,"Governance, Law and Management"
+Aeronautical Engineering,1,"Engineering, Technology and Mathematics"
+Harvard,1,Others
+Hons Geography,1,Others
+Aero Engg,1,"Engineering, Technology and Mathematics"
+International Business,1,"Governance, Law and Management"
+Venereology,1,Medical
+Water Management,1,"Governance, Law and Management"
+Music,1,Languages and Fine Arts
+Hindi English,1,Languages and Fine Arts
+Eco.History,1,Social Science and Liberal Arts
+USA Statistics,1,"Engineering, Technology and Mathematics"
+Analytical Chem,1,Natural Sciences
+Telecomm Engg,1,"Engineering, Technology and Mathematics"
+Hons Mathematics,1,"Engineering, Technology and Mathematics"
+Financial Markets,1,Finance
+Animal Breeding,1,Medical
+Radio Pathology,1,Medical
+Bengali,1,Languages and Fine Arts
+Portuguese,1,Languages and Fine Arts
+Social Security,1,Others
+Community Planning,1,"Governance, Law and Management"
+Labour Orgn.,1,Others
+Web Pages Designing,1,"Engineering, Technology and Mathematics"
+Prodn.Control,1,"Engineering, Technology and Mathematics"
+Non.Linear Mech,1,"Engineering, Technology and Mathematics"
+Empowerment,1,Others
+Chartered Fincl Analyst,1,Finance
+Federalism,1,Social Science and Liberal Arts
+Tibetan,1,Languages and Fine Arts
+Business.Orgn,1,"Governance, Law and Management"
+Applied Maths,1,"Engineering, Technology and Mathematics"
+Systems Science & Automation,1,"Engineering, Technology and Mathematics"
+Computer Networks,1,"Engineering, Technology and Mathematics"
+Pali,1,Languages and Fine Arts
+Indl. Finance,1,Finance
+Port Plg & Managemt,1,"Governance, Law and Management"
+Indl.orgn.,1,"Governance, Law and Management"
+Family Planning,1,"Governance, Law and Management"
+Census,1,"Governance, Law and Management"
+Eng. Mech.,1,"Engineering, Technology and Mathematics"
+Strategic Export Mkt,1,"Governance, Law and Management"
+Aplied Geologcl,1,"Engineering, Technology and Mathematics"
+Sectt.Practices,1,"Governance, Law and Management"
+Managerial Economics,1,Social Science and Liberal Arts
+Utility Regulation,1,"Governance, Law and Management"
+Land Laws,1,"Governance, Law and Management"
+Eco Planning,1,Social Science and Liberal Arts
+Town Planning,1,"Governance, Law and Management"
+National Security,1,"Governance, Law and Management"
+Applied Optics,1,"Engineering, Technology and Mathematics"
+Anaesthology,1,Medical
+Chinese Studies,1,Languages and Fine Arts
+Disaster Management,1,"Governance, Law and Management"
+Intrnl Dev,1,Social Science and Liberal Arts
+Astronomy,1,"Engineering, Technology and Mathematics"
+Eco Policy & Mgt,1,"Governance, Law and Management"
+Political Systems,1,"Governance, Law and Management"
+Gender Analysis,1,Social Science and Liberal Arts
+Physilogy(orgl Behaviour),1,Others
+Export Mgt,1,"Governance, Law and Management"
+Patents Law,1,"Governance, Law and Management"
+Police Admn,1,"Governance, Law and Management"
+Small Scale Sector,1,"Governance, Law and Management"
+Sahitya Visharad,1,Languages and Fine Arts
+Organisational Behaviour,1,"Governance, Law and Management"
+Trng & Developmemt,1,"Governance, Law and Management"
+South Asian Security Issues,1,Others
+Fibre Sc.&tech.,1,"Engineering, Technology and Mathematics"
+Public Enterpr,1,"Governance, Law and Management"
+Preventive and Social Medicine,1,Medical
+Obstetrics,1,Medical
+Animal Sciences,1,Medical
+Politics (Int. Studies),1,Social Science and Liberal Arts
+Clinical Pathgy,1,Medical
+Refrigeration,1,"Engineering, Technology and Mathematics"
+Gynaecology,1,Medical
+From Green REvolution to Liberalissation Grown of,1,Others
+Natural Resource,1,Others
+Clic Psychology,1,Medical
+Metropolitan Planning,1,"Governance, Law and Management"
+Contract and Taxation Law,1,"Governance, Law and Management"
+Social Services,1,Social Science and Liberal Arts
+Air Navigation Sys.,1,"Engineering, Technology and Mathematics"
+American Civiln,1,Social Science and Liberal Arts
+Epidemiology,1,Medical
+Media Regulation,1,"Governance, Law and Management"
+Plasti Techlogy,1,"Engineering, Technology and Mathematics"
+Silviculture,1,Others
+Integ Rural Engy Tech.,1,"Engineering, Technology and Mathematics"
+Constitutional and Administrative Laws,1,"Governance, Law and Management"
+Electrical Machines&desig,1,"Engineering, Technology and Mathematics"
+Western History,1,Social Science and Liberal Arts
+Prodn Mgnt,1,"Governance, Law and Management"
+Microlevel Planning,1,"Governance, Law and Management"
+Chem.Physics,1,Natural Sciences
+Foreign Affairs,1,"Governance, Law and Management"
+Eneral Studies,1,Others
+Others,1,Others
+Techno Eco Analysis,1,Social Science and Liberal Arts
+Sino-burmese Rl,1,Others
+Pers0nnel Admn,1,"Governance, Law and Management"
+West European St,1,Social Science and Liberal Arts
+Inorg.chemistry,1,Natural Sciences
+Materials Mgmt,1,"Governance, Law and Management"
+Agri Credit&coop Banking,1,"Governance, Law and Management"
+Ichthyology,1,Natural Sciences
+Home Science,1,Others
+Integrated Electronics,1,"Engineering, Technology and Mathematics"
+Labour Legisln,1,"Governance, Law and Management"
+Petroleum Eco.,1,Social Science and Liberal Arts
+Hons Chemistry,1,Natural Sciences
