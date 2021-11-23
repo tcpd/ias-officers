@@ -155,14 +155,6 @@ st.bar_chart(data=filtered_df_subject, height=600)
 
 st.plotly_chart(pie_chart(filtered_df_subject))
 
-# fig2, ax2 = plt.subplots()
-# ax2.pie(filtered_df_subject['Count'], labels=filtered_df_subject.index, autopct='%1.1f%%')
-
-# fig2.patch.set_facecolor('none')
-# [ax2.texts[i].set_color('w') for i in range(len(ax2.texts))]
-# ax2.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-# st.pyplot(fig2)
-
 include_admin_scatter = st.checkbox('Remove Top Admin Categorie')
 num_range = st.slider('Number of rows', min_value=1, max_value=600, value=20)
 
