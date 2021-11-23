@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import plotly.express as px
 
+st.set_page_config(page_title="IAS Subject Analysis", page_icon="📚", layout="centered")
+
 colors = {}
 
 lower = 100
@@ -77,7 +79,8 @@ def scatter_plot(df, include_top_cat=True, min_value=50):
     df = df.loc[df["Count"] > min_value]
     max_value = df["Count"].max()
 
-    length_y_axis = df["Experience"].unique().shape[0]
+    length_y_axis = df["Subject"].unique().shape[0]
+    length_x_axis = df["Experience"].unique().shape[0]
 
     fig = go.Figure(data=[go.Scatter(
         x=df["Experience"].to_list(),
@@ -92,12 +95,15 @@ def scatter_plot(df, include_top_cat=True, min_value=50):
 
     fig = fig.update_layout(
         autosize=False,
-        height=100 + length_y_axis * 25,
-        width=800,
+        height=100 + (length_y_axis * 75),
+        width=100 + (length_x_axis * 75),
     )
 
     # remove grid lines from the figure
-    fig.update_xaxes(showgrid=False)
+    fig.update_xaxes(
+        showgrid=False,
+        type="category",
+    )
     fig.update_yaxes(showgrid=False)
     
     return fig
@@ -161,7 +167,7 @@ st.markdown("""<hr/>""", unsafe_allow_html=True)
 
 st.sidebar.subheader('Bubble map')
 st.subheader('Bubble map')
-include_admin_scatter = st.sidebar.checkbox('Remove Top Admin Categorie')
+include_admin_scatter = st.sidebar.checkbox('Remove Top Admin Categories', key="include_admin_scatter")
 num_range = st.sidebar.slider('Filter threshold', min_value=1, max_value=600, value=20)
 
 st.plotly_chart(scatter_plot(unigram_data.copy(), include_top_cat=include_admin_scatter, min_value=num_range))
