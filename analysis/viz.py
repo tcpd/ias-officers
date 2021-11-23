@@ -61,7 +61,7 @@ def filter_by_value(df, col, value, include_admin=True, number_of_rows=5, percen
 
     if percentage:
         sum = df["Count"].sum()
-        df = pd.DataFrame(df["Count"].apply(lambda x: (x / sum) * 100))
+        df = pd.DataFrame(df["Count"].apply(lambda x: round(((x / sum) * 100), 2)))
 
     try:
         return df.drop(columns=["text", "colors"])
@@ -125,12 +125,12 @@ lists_data = load_lists_data()
 st.subheader('Unigram maps')
 st.write(unigram_data.drop(columns=["text", "colors"]))
 
+st.sidebar.subheader('Select a category of expirence')
+st.subheader('Number of Subject occurances with respect to chosen Category of Experience')
+option_experience = st.sidebar.selectbox("", unigram_data['Experience'].unique())
 
-st.subheader('Select a category of expirence')
-option_experience = st.selectbox("", unigram_data['Experience'].unique())
-
-include_other_experience = st.checkbox("Include combined remaining entries")
-number_of_rows_experience = st.slider('Number of rows', min_value=1, max_value=8, value=5)
+include_other_experience = st.sidebar.checkbox("Include combined remaining entries")
+number_of_rows_experience = st.sidebar.slider('Number of rows', min_value=1, max_value=8, value=5)
 
 filtered_df_experience = filter_by_value(unigram_data.copy(), 'Experience', option_experience, number_of_rows=number_of_rows_experience, include_other=include_other_experience)
 st.write(filtered_df_experience)
@@ -138,16 +138,17 @@ st.bar_chart(data=filtered_df_experience, height=600)
 
 st.plotly_chart(pie_chart(filtered_df_experience))
 
-fig1, ax1 = plt.subplots()
+st.sidebar.markdown("""<hr/>""", unsafe_allow_html=True)
+st.markdown("""<hr/>""", unsafe_allow_html=True)
 
+st.sidebar.subheader('Select a Subject')
+st.subheader('Number of Category of Experience occurances with respect to chosen Subject')
+option_subject = st.sidebar.selectbox("", unigram_data['Subject'].unique())
 
-st.subheader('Select a Subject')
-option_subject = st.selectbox("", unigram_data['Subject'].unique())
+include_admin = st.sidebar.checkbox('Remove Top Admin Categories')
+percentage = st.sidebar.checkbox('Show percentage', value=True)
 
-include_admin = st.checkbox('Remove Top Admin Categories')
-percentage = st.checkbox('Show percentage', value=True)
-
-number_of_rows = st.slider('Number of rows', min_value=1, max_value=47, value=5)
+number_of_rows = st.sidebar.slider('Number of rows', min_value=1, max_value=47, value=5)
 
 filtered_df_subject = filter_by_value(unigram_data.copy(), 'Subject', option_subject, include_admin=include_admin, number_of_rows=number_of_rows, percentage=percentage)
 st.write(filtered_df_subject)
@@ -155,7 +156,12 @@ st.bar_chart(data=filtered_df_subject, height=600)
 
 st.plotly_chart(pie_chart(filtered_df_subject))
 
-include_admin_scatter = st.checkbox('Remove Top Admin Categorie')
-num_range = st.slider('Number of rows', min_value=1, max_value=600, value=20)
+st.sidebar.markdown("""<hr/>""", unsafe_allow_html=True)
+st.markdown("""<hr/>""", unsafe_allow_html=True)
+
+st.sidebar.subheader('Bubble map')
+st.subheader('Bubble map')
+include_admin_scatter = st.sidebar.checkbox('Remove Top Admin Categorie')
+num_range = st.sidebar.slider('Filter threshold', min_value=1, max_value=600, value=20)
 
 st.plotly_chart(scatter_plot(unigram_data.copy(), include_top_cat=include_admin_scatter, min_value=num_range))
