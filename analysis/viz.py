@@ -4,6 +4,7 @@ import numpy as np
 import plotly.figure_factory as ff
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
+import plotly.express as px
 
 colors = {}
 
@@ -101,6 +102,23 @@ def scatter_plot(df, include_top_cat=True, min_value=50):
     
     return fig
 
+def pie_chart(df):
+    fig = px.pie(
+        df, 
+        names=df.index, 
+        values=df["Count"], 
+        title="Subjects",
+        color_discrete_sequence=px.colors.qualitative.Bold
+    )
+
+    return fig.update_traces(
+        hoverinfo="label+percent",
+        textinfo="value",
+        insidetextfont=dict(
+            color="white"
+        ),
+    )
+
 unigram_data = load_unigram_data()
 lists_data = load_lists_data()
 
@@ -118,19 +136,10 @@ filtered_df_experience = filter_by_value(unigram_data.copy(), 'Experience', opti
 st.write(filtered_df_experience)
 st.bar_chart(data=filtered_df_experience, height=600)
 
+st.plotly_chart(pie_chart(filtered_df_experience))
 
 fig1, ax1 = plt.subplots()
 
-ax1.pie(filtered_df_experience['Count'], labels=filtered_df_experience.index, autopct='%1.1f%%')
-
-# set background to transparent
-fig1.patch.set_facecolor('none')
-# set label color to white
-[ax1.texts[i].set_color('w') for i in range(len(ax1.texts))]
-
-ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-
-st.pyplot(fig1)
 
 st.subheader('Select a Subject')
 option_subject = st.selectbox("", unigram_data['Subject'].unique())
@@ -144,13 +153,15 @@ filtered_df_subject = filter_by_value(unigram_data.copy(), 'Subject', option_sub
 st.write(filtered_df_subject)
 st.bar_chart(data=filtered_df_subject, height=600)
 
-fig2, ax2 = plt.subplots()
-ax2.pie(filtered_df_subject['Count'], labels=filtered_df_subject.index, autopct='%1.1f%%')
+st.plotly_chart(pie_chart(filtered_df_subject))
 
-fig2.patch.set_facecolor('none')
-[ax2.texts[i].set_color('w') for i in range(len(ax2.texts))]
-ax2.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-st.pyplot(fig2)
+# fig2, ax2 = plt.subplots()
+# ax2.pie(filtered_df_subject['Count'], labels=filtered_df_subject.index, autopct='%1.1f%%')
+
+# fig2.patch.set_facecolor('none')
+# [ax2.texts[i].set_color('w') for i in range(len(ax2.texts))]
+# ax2.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+# st.pyplot(fig2)
 
 include_admin_scatter = st.checkbox('Remove Top Admin Categorie')
 num_range = st.slider('Number of rows', min_value=1, max_value=600, value=20)
