@@ -125,30 +125,75 @@ def pie_chart(df):
         ),
     )
 
+def bar_chart(df, title="", x_axis_title=""):
+    fig = px.bar(
+        df,
+        x=df.index,
+        y="Count",
+        title=title
+    )
+
+    fig.update_layout(
+        autosize=False,
+        height=600
+    )
+
+    fig.update_xaxes(
+        title=x_axis_title,
+    )
+
+    fig.update_yaxes(
+        title="Count",
+        showgrid=False,
+    )
+
+    
+
+    return fig.update_traces(
+        hoverinfo="text",
+        insidetextfont=dict(
+            color="white"
+        ),
+    )
+
 unigram_data = load_unigram_data()
 lists_data = load_lists_data()
 
 st.subheader('Unigram maps')
-st.write(unigram_data.drop(columns=["text", "colors"]))
+
+with st.expander("See table"):
+    st.write(unigram_data.drop(columns=["text", "colors"]))
 
 st.sidebar.subheader('Select a category of expirence')
 st.subheader('Number of Subject occurances with respect to chosen Category of Experience')
+st.write("\n")
 option_experience = st.sidebar.selectbox("", unigram_data['Experience'].unique())
 
 include_other_experience = st.sidebar.checkbox("Include combined remaining entries")
 number_of_rows_experience = st.sidebar.slider('Number of rows', min_value=1, max_value=8, value=5)
 
 filtered_df_experience = filter_by_value(unigram_data.copy(), 'Experience', option_experience, number_of_rows=number_of_rows_experience, include_other=include_other_experience)
-st.write(filtered_df_experience)
-st.bar_chart(data=filtered_df_experience, height=600)
 
-st.plotly_chart(pie_chart(filtered_df_experience))
+with st.expander("See table"):
+    st.write(filtered_df_experience)
+
+plot_container_experience = st.container()
+col1, col2 = plot_container_experience.columns([7, 1])
+
+col1.plotly_chart(bar_chart(filtered_df_experience, title="Number of Subject occurances with respect to chosen Category of Experience", x_axis_title="Subjects"))
+col2.plotly_chart(pie_chart(filtered_df_experience))
+
+# st.plotly_chart(bar_chart(filtered_df_experience, title="Number of Subject occurances with respect to chosen Category of Experience", x_axis_title="Subjects"))
+# # st.bar_chart(data=filtered_df_experience, height=600)
+
+# st.plotly_chart(pie_chart(filtered_df_experience))
 
 st.sidebar.markdown("""<hr/>""", unsafe_allow_html=True)
 st.markdown("""<hr/>""", unsafe_allow_html=True)
 
 st.sidebar.subheader('Select a Subject')
 st.subheader('Number of Category of Experience occurances with respect to chosen Subject')
+st.write("\n")
 option_subject = st.sidebar.selectbox("", unigram_data['Subject'].unique())
 
 include_admin = st.sidebar.checkbox('Remove Top Admin Categories')
@@ -157,10 +202,15 @@ percentage = st.sidebar.checkbox('Show percentage', value=True)
 number_of_rows = st.sidebar.slider('Number of rows', min_value=1, max_value=47, value=5)
 
 filtered_df_subject = filter_by_value(unigram_data.copy(), 'Subject', option_subject, include_admin=include_admin, number_of_rows=number_of_rows, percentage=percentage)
-st.write(filtered_df_subject)
-st.bar_chart(data=filtered_df_subject, height=600)
 
-st.plotly_chart(pie_chart(filtered_df_subject))
+with st.expander("See table"):
+    st.write(filtered_df_subject)
+
+plot_container_subject = st.container()
+col3, col4 = plot_container_subject.columns([7, 1])
+
+col3.plotly_chart(bar_chart(filtered_df_subject, title="Number of Category of Experience occurances with respect to chosen Subject", x_axis_title="Category of Experience"))
+col4.plotly_chart(pie_chart(filtered_df_subject))
 
 st.sidebar.markdown("""<hr/>""", unsafe_allow_html=True)
 st.markdown("""<hr/>""", unsafe_allow_html=True)
