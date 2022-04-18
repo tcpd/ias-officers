@@ -183,11 +183,6 @@ col1, col2 = plot_container_experience.columns([7, 1])
 col1.plotly_chart(bar_chart(filtered_df_experience, title="Number of Subject occurances with respect to chosen Category of Experience", x_axis_title="Subjects"))
 col2.plotly_chart(pie_chart(filtered_df_experience))
 
-# st.plotly_chart(bar_chart(filtered_df_experience, title="Number of Subject occurances with respect to chosen Category of Experience", x_axis_title="Subjects"))
-# # st.bar_chart(data=filtered_df_experience, height=600)
-
-# st.plotly_chart(pie_chart(filtered_df_experience))
-
 st.sidebar.markdown("""<hr/>""", unsafe_allow_html=True)
 st.markdown("""<hr/>""", unsafe_allow_html=True)
 
